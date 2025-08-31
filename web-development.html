@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <title>Inbox Marketing LV - Web Development</title>
+  <link href="assets/css/style.css" rel="stylesheet"></head>
+  <body>
+    <!-- go to top -->
+    <button class="go-to-top">
+      <i class="ph-bold ph-arrow-up"></i>
+    </button>
+
+    <!-- loader -->
+    <div class="loader-wrapper">
+      <span class="loader"></span>
+    </div>
+    <!-- Header -->
+    <nav class="navbar-top">
+  <div class="navbar-wrapper d-flex align-items-center justify-content-between">
+    <a href="index.html" class="logo d-inline-flex">
+      <img src="./assets/images/logo.png" class="img-fluid" alt="" />
+    </a>
+    <div class="menu-wrapper">
+      <ul class="menu-list d-none d-lg-flex">
+        <li><a href="index.html" class="menu-link">Home</a></li>
+        <li><a href="about-us.html" class="menu-link">About Us</a></li>
+        <li class="submenu">
+          <button>What We Do<i class="ph ph-caret-down"></i></button>
+          <ul class="submenu-dropdown">
+            <li><a class="menu-link dropdown-item" href="services.html">Services</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <button>Portfolio <i class="ph ph-caret-down"></i></button>
+          <ul class="submenu-dropdown">
+            <li><a class="menu-link dropdown-item" href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <button>Insight <i class="ph ph-caret-down"></i></button>
+          <ul class="submenu-dropdown">
+            <li><a class="menu-link dropdown-item" href="blogs.html">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="contact-us.html" class="menu-link">Contact Us</a></li>
+      </ul>
+    </div>
+    <button class="d-lg-none menu-toggle-btn fs-3 f-center bg-transparent"><i class="ph ph-list"></i></button>
+  </div>
+  <div class="mobile-menu d-lg-none">
+    <div class="d-flex justify-content-between align-items-center gap-2 mb-4 d-lg-none">
+      <img src="./assets/images/logo.png" alt="" />
+      <button class="menu-close-btn bg-transparent f-center fs-4"><i class="ph ph-x"></i></button>
+    </div>
+    <ul class="menu-list" id="mobile-menu">
+      <li><a href="index.html" class="menu-link active">Home</a></li>
+      <li><a href="about-us.html" class="menu-link">About Us</a></li>
+      <li class="submenu">
+        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mservice">Service <i class="ph ph-caret-up"></i></button>
+        <div id="mservice" class="collapse" data-bs-parent="#mobile-menu">
+          <ul class="submenu-dropdown">
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="submenu">
+        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mport">Portfolio <i class="ph ph-caret-up"></i></button>
+        <div id="mport" class="collapse" data-bs-parent="#mobile-menu">
+          <ul class="submenu-dropdown">
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="submenu">
+        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mblog">Blog <i class="ph ph-caret-up"></i></button>
+        <div id="mblog" class="collapse" data-bs-parent="#mobile-menu">
+          <ul class="submenu-dropdown">
+            <li><a href="blogs.html">Blog</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="contact-us.html" class="menu-link">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+    <main>
+      <!-- hero  -->
+      <section class="service-details">
+        <div class="container pt-120 pb-120">
+          <div class="top-title">
+            <p class="fade_up_anim mb-3"><span class="text-primary fw-semibold">Services</span> / Web Development</p>
+            <h2 data-delay=".2" class="title-anim display-3 fw-bolder">Web Development</h2>
+          </div>
+        </div>
+        <div class="container-big">
+          <div class="mb-60">
+            <img src="./assets/images/web-1.png" class="w-100 img-fluid" alt="" />
+          </div>
+          <div class="container">
+            <h2 class="display-4 mb-30 fw-bold">Build powerful websites that drive results and enhance your digital presence</h2>
+            <div class="mb-60">
+              <p class="mb-3 mb-xl-4">
+                At Marketing Inbox, we create high-performance websites that combine stunning design with robust functionality to deliver exceptional user experiences. Our web development solutions are designed to meet your specific business needs while ensuring optimal performance, security, and scalability. Whether you need a simple business website, e-commerce platform, or complex web application, we build digital solutions that grow with your business.
+              </p>
+              <p>
+                Our expert development team utilizes the latest technologies and best practices to create websites that not only look impressive but also perform flawlessly across all devices and browsers. We focus on creating fast loading, SEO optimized websites that convert visitors into customers while providing you with easy content management capabilities. With experience serving clients across 25+ countries, we understand diverse market requirements and technical standards.
+              </p>
+            </div>
+            <h2 class="display-4 mb-30 fw-bold">We provide useful services</h2>
+            <div class="mb-60">
+              <p>
+                Our web development solutions encompass every aspect of website creation, from initial planning and architecture to final deployment and ongoing maintenance. We believe in building websites that are not only visually appealing but also technically sound and strategically aligned with your business objectives. Our comprehensive approach ensures seamless integration with your existing systems and future scalability.
+Through our proven development methodology, we deliver websites that enhance your online presence, improve user engagement, and drive business growth. We focus on creating responsive, secure, and high performing websites that provide excellent user experiences while meeting modern web standards and accessibility requirements.
+              </p>
+            </div>
+            <ul class="list mb-60">
+              <li>Modern responsive web development</li>
+              <li>Custom functionality and integrations</li>
+              <li>SEO optimization and performance tuning</li>
+              <li>Content management system setup</li>
+              <li>Ongoing maintenance and support</li>
+            </ul>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <img src="./assets/images/web-2.png" alt="" />
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/web-3.png" alt="" />
+            </div>
+          </div>
+          <div class="container pt-120 pb-120">
+            <h2 class="mb-3 mb-xl-4">Your dream website in just few steps</h2>
+            <p class="mb-3 mb-xl-4">
+              Creating exceptional websites requires a systematic approach that balances technical excellence with user centered design. Our streamlined development process ensures every project is delivered on time and within budget while maintaining the highest quality standards. We keep you involved throughout the development journey, providing regular updates and seeking your feedback at every milestone.
+            </p>
+            <div class="row gy-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="detail-box">
+                  <h2 class="mb-3 mb-xl-4">I Planning</h2>
+                  <p class="mb-3 mb-xl-4">Establishing the foundation for your website through comprehensive analysis and strategic planning</p>
+                  <ul class="list">
+                    <li>Analyzing your business requirements and goals</li>
+                    <li>Researching target audience and competitor websites</li>
+                    <li>Developing site architecture and technical specifications</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="detail-box">
+                  <h2 class="mb-3 mb-xl-4">II Development</h2>
+                  <p class="mb-3 mb-xl-4">Building your website with clean code, modern technologies, and best practices</p>
+                  <ul class="list">
+                    <li>Creating responsive layouts and interactive features</li>
+                    <li>Implementing content management systems and databases</li>
+                    <li>Integrating third-party services and APIs</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="detail-box">
+                  <h2 class="mb-3 mb-xl-4">III Launch</h2>
+                  <p class="mb-3 mb-xl-4">Deploying your website with thorough testing and optimization for optimal performance</p>
+                  <ul class="list">
+                    <li>Testing functionality across all devices and browsers</li>
+                    <li>Optimizing for speed, SEO, and accessibility</li>
+                    <li>Providing training and ongoing technical support</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- global clients -->
+      <section class="global-client pt-120">
+        <div class="container-black">
+          <h3 class="title-anim text-center text-white mb-4 mb-xl-5 pb-1 pb-xl-3">We've 500+ Global Clients &amp; lot's of Project Complete</h3>
+          <div class="brand-container">
+            <div class="container">
+              <div class="swiper brand-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-1.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-3.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-4.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-5.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-3.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- faq section -->
+      <section class="popular-question pb-120 pt-120">
+        <div class="container">
+          <h2 class="title-anim text-center display-3 fw-bolder mb-60">Popular common questions and your answer</h2>
+          <div id="faq">
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq1" class="top">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>001</h5>
+                  <h5 class="text-capitalize">What technologies and platforms do you use for web development?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq1" data-bs-parent="#faq" class="content collapse show">
+                <p>
+                  We work with a wide range of modern technologies including HTML5, CSS3, JavaScript, React, WordPress, Shopify, and custom PHP development. We also specialize in popular platforms like Webflow for design focused websites and can recommend the best technology stack based on your specific needs, budget, and long term goals. Our team stays updated with the latest web standards and frameworks to ensure your website is built with cutting edge technology.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq2" class="top collapsed">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>002</h5>
+                  <h5 class="text-capitalize">Will my website be mobile-friendly and work on all devices?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq2" data-bs-parent="#faq" class="content collapse">
+                <p>
+                  Absolutely! All our websites are built with a responsive design approach, meaning they automatically adapt and look great on smartphones, tablets, desktops, and all screen sizes. We test extensively across different devices and browsers to ensure consistent functionality and user experience. Mobile optimization is standard in all our projects, not an additional feature.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq3" class="top collapsed">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>003</h5>
+                  <h5 class="text-capitalize">How long does it take to build a website?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq3" data-bs-parent="#faq" class="content collapse">
+                <p>
+                  Timeline varies based on project complexity and requirements. A standard business website typically takes 4-6 weeks, while e-commerce sites or custom web applications can take 8-12 weeks. We provide detailed project timelines during the planning phase and keep you updated on progress throughout development. Factors affecting timeline include number of pages, custom features, content preparation, and revision rounds.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq4" class="top collapsed">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>004</h5>
+                  <h5 class="text-capitalize">Do you provide website maintenance and support after launch?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq4" data-bs-parent="#faq" class="content collapse">
+                <p>
+                  Yes, we offer comprehensive post launch support including regular updates, security monitoring, backup services, and technical assistance. We provide different maintenance packages to suit various needs and budgets. Our ongoing support ensures your website remains secure, up-to-date, and performing optimally. We also offer content updates and feature additions as your business evolves.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq5" class="top collapsed">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>005</h5>
+                  <h5 class="text-capitalize">Can you help with website hosting and domain setup?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq5" data-bs-parent="#faq" class="content collapse">
+                <p>
+                  Definitely! We can assist with domain registration, hosting setup, and technical configuration to get your website live. We work with reliable hosting providers and can recommend the best hosting solution based on your website's requirements and expected traffic. We also handle SSL certificates, email setup, and all technical aspects to ensure your website launches smoothly and securely.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer pt-120">
+  <div class="container">
+    <h2 class="title-anim display-3 text-center text-white fw-bolder mb-30">
+      Reach out and <br />
+      let's create something great together
+    </h2>
+    <a class="fade_up_anim h4 fw-semibold mx-auto d-block mb-60 text-white text-center" href="mailto:andris.marketing@inbox.lv">andris.marketing@inbox.lv</a>
+    <div class="pb-120 d-flex justify-content-center">
+      <a href="contact-us.html" class="connect">
+        <span class="fs-4 fw-semibold z-3">Connect Us</span>
+        <i class="ph ph-arrow-up-right-bold fs-5 z-3"></i>
+        <div class="ball"></div>
+      </a>
+    </div>
+    <div class="row">
+      <div class="col-md-6 px-md-0">
+        <div class="footer-box border-start-0 border-bottom-0 apear-down">
+        </div>
+        <div class="footer-box border-start-0 border-bottom-0 apear-down">
+          <p class="text-uppercase">email</p>
+          <a href="mailto:andris.marketing@inbox.lv">andris.marketing@inbox.lv</a>
+        </div>
+      </div>
+      <div class="col-md-6 px-md-0">
+        <div class="footer-box border-start-0 border-end-0 h-100 border-bottom-0 apear-down">
+          <div class="d-flex flex-column justify-content-between h-100">
+            <p class="text-uppercase">MENU</p>
+            <div>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="about-us.html">About Us <i class="ph ph-arrow-up-right"></i></a>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="services.html">Services <i class="ph ph-arrow-up-right"></i></a>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="portfolio.html">Portfolio <i class="ph ph-arrow-up-right"></i></a>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="blogs.html">Blogs <i class="ph ph-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright d-flex justify-content-center">
+      <p class="text-center">© <span id="year"></span> Marketing Inbox. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    </main>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script defer src="assets/js/app.js"></script></body>
+</html>

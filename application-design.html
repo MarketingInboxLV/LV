@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <title>Inbox Marketing LV - Application Design</title>
+  <link href="assets/css/style.css" rel="stylesheet"></head>
+  <body>
+    <!-- go to top -->
+    <button class="go-to-top">
+      <i class="ph-bold ph-arrow-up"></i>
+    </button>
+
+    <!-- loader -->
+    <div class="loader-wrapper">
+      <span class="loader"></span>
+    </div>
+    <!-- Header -->
+    <nav class="navbar-top">
+  <div class="navbar-wrapper d-flex align-items-center justify-content-between">
+    <a href="index.html" class="logo d-inline-flex">
+      <img src="./assets/images/logo.png" class="img-fluid" alt="" />
+    </a>
+    <div class="menu-wrapper">
+      <ul class="menu-list d-none d-lg-flex">
+        <li><a href="index.html" class="menu-link">Home</a></li>
+        <li><a href="about-us.html" class="menu-link">About Us</a></li>
+        <li class="submenu">
+          <button>What We Do<i class="ph ph-caret-down"></i></button>
+          <ul class="submenu-dropdown">
+            <li><a class="menu-link dropdown-item" href="services.html">Services</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <button>Portfolio <i class="ph ph-caret-down"></i></button>
+          <ul class="submenu-dropdown">
+            <li><a class="menu-link dropdown-item" href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <button>Insight <i class="ph ph-caret-down"></i></button>
+          <ul class="submenu-dropdown">
+            <li><a class="menu-link dropdown-item" href="blogs.html">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="contact-us.html" class="menu-link">Contact Us</a></li>
+      </ul>
+    </div>
+    <button class="d-lg-none menu-toggle-btn fs-3 f-center bg-transparent"><i class="ph ph-list"></i></button>
+  </div>
+  <div class="mobile-menu d-lg-none">
+    <div class="d-flex justify-content-between align-items-center gap-2 mb-4 d-lg-none">
+      <img src="./assets/images/logo.png" alt="" />
+      <button class="menu-close-btn bg-transparent f-center fs-4"><i class="ph ph-x"></i></button>
+    </div>
+    <ul class="menu-list" id="mobile-menu">
+      <li><a href="index.html" class="menu-link active">Home</a></li>
+      <li><a href="about-us.html" class="menu-link">About Us</a></li>
+      <li class="submenu">
+        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mservice">Service <i class="ph ph-caret-up"></i></button>
+        <div id="mservice" class="collapse" data-bs-parent="#mobile-menu">
+          <ul class="submenu-dropdown">
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="submenu">
+        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mport">Portfolio <i class="ph ph-caret-up"></i></button>
+        <div id="mport" class="collapse" data-bs-parent="#mobile-menu">
+          <ul class="submenu-dropdown">
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="submenu">
+        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mblog">Blog <i class="ph ph-caret-up"></i></button>
+        <div id="mblog" class="collapse" data-bs-parent="#mobile-menu">
+          <ul class="submenu-dropdown">
+            <li><a href="blogs.html">Blog</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="contact-us.html" class="menu-link">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+    <main>
+      <!-- hero  -->
+      <section class="service-details">
+        <div class="container pt-120 pb-120">
+          <div class="top-title">
+            <p class="fade_up_anim mb-3"><span class="text-primary fw-semibold">Services</span> / Application Design</p>
+            <h2 data-delay=".2" class="title-anim display-3 fw-bolder">Application Design</h2>
+          </div>
+        </div>
+        <div class="container-big">
+          <div class="mb-60">
+            <img src="./assets/images/app-1.png" class="w-100 img-fluid" alt="" />
+          </div>
+          <div class="container">
+            <h2 class="display-4 mb-30 fw-bold">Design innovative mobile and web applications that transform user experiences</h2>
+            <div class="mb-60">
+              <p class="mb-3 mb-xl-4">
+                At Marketing Inbox, we specialize in creating intuitive and engaging application designs that solve real user problems while achieving your business objectives. Our application design solutions focus on delivering seamless user experiences across mobile and web platforms, ensuring your app stands out in today's competitive digital landscape. Whether you're launching a startup app, enterprise software, or consumer mobile application, we design solutions that users love and businesses rely on.
+              </p>
+              <p>
+                Our experienced design team combines user research, creative thinking, and technical expertise to create applications that are both functionally robust and visually compelling. We understand that successful applications require more than just good looks they need intuitive navigation, efficient workflows, and engaging interactions that keep users coming back. With our international experience serving clients across 25+ countries, we design applications that work across different cultures and user behaviors.
+              </p>
+            </div>
+            <h2 class="display-4 mb-30 fw-bold">We provide useful services</h2>
+            <div class="mb-60">
+              <p>
+                Our application design solutions cover every aspect of app creation, from initial concept development to final user interface implementation. We believe in creating designs that prioritize user needs while supporting your business goals through strategic design decisions. Our comprehensive approach ensures that every screen, interaction, and user flow is carefully crafted to provide maximum value and usability.
+Through our proven design methodology, we deliver applications that not only look exceptional but also perform seamlessly across different devices and platforms. We focus on creating scalable design systems that can evolve with your application as it grows, while maintaining consistency and usability throughout the user journey.
+              </p>
+            </div>
+            <ul class="list mb-60">
+              <li>User centered application design approach</li>
+              <li>Cross platform compatibility and optimization</li>
+              <li>Interactive prototyping and user testing</li>
+              <li>Scalable design systems and components</li>
+              <li>Post launch design support and iterations</li>
+            </ul>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <img src="./assets/images/app-2.png" alt="" />
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/app-3.png" alt="" />
+            </div>
+          </div>
+          <div class="container pt-120 pb-120">
+            <h2 class="mb-3 mb-xl-4">Your perfect application design in just few steps</h2>
+            <p class="mb-3 mb-xl-4">
+              Creating successful applications requires a structured design process that balances user needs with business requirements and technical constraints. Our streamlined approach ensures every application is thoughtfully designed, thoroughly tested, and optimized for user engagement. We collaborate closely with you throughout the design process, incorporating your feedback and vision into every design decision.
+            </p>
+            <div class="row gy-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="detail-box">
+                  <h2 class="mb-3 mb-xl-4">I Research</h2>
+                  <p class="mb-3 mb-xl-4">Understanding your users and market to create a solid foundation for application success</p>
+                  <ul class="list">
+                    <li>Analyzing user needs and behavioral patterns</li>
+                    <li>Researching competitor applications and market opportunities</li>
+                    <li>Defining application goals and success metrics</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="detail-box">
+                  <h2 class="mb-3 mb-xl-4">II Design</h2>
+                  <p class="mb-3 mb-xl-4">Creating intuitive interfaces and seamless user experiences through systematic design development</p>
+                  <ul class="list">
+                    <li>Developing user flows and wireframe structures</li>
+                    <li>Designing visual interfaces and interactive elements</li>
+                    <li>Creating prototypes for user testing and validation</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="detail-box">
+                  <h2 class="mb-3 mb-xl-4">III Refinement</h2>
+                  <p class="mb-3 mb-xl-4">Perfecting the application design through testing, feedback, and iterative improvements</p>
+                  <ul class="list">
+                    <li>Testing usability and gathering user feedback</li>
+                    <li>Optimizing designs for performance and accessibility</li>
+                    <li>Delivering final design assets and specifications</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- global clients -->
+      <section class="global-client pt-120">
+        <div class="container-black">
+          <h3 class="title-anim text-center text-white mb-4 mb-xl-5 pb-1 pb-xl-3">We've 500+ Global Clients &amp; lot's of Project Complete</h3>
+          <div class="brand-container">
+            <div class="container">
+              <div class="swiper brand-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-1.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-3.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-4.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-5.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-3.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- faq section -->
+      <section class="popular-question pb-120 pt-120">
+        <div class="container">
+          <h2 class="title-anim text-center display-3 fw-bolder mb-60">Popular common questions and your answer</h2>
+          <div id="faq">
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq1" class="top">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>001</h5>
+                  <h5 class="text-capitalize">Do you design for both mobile and web applications?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq1" data-bs-parent="#faq" class="content collapse show">
+                <p>
+                  Yes, we design for all types of applications including native mobile apps (iOS and Android), web applications, progressive web apps (PWAs), and cross platform solutions. We ensure consistent user experience across all platforms while optimizing each design for the specific strengths and constraints of each platform. Our designs follow platform specific guidelines (Material Design for Android, Human Interface Guidelines for iOS) while maintaining your brand identity.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq2" class="top collapsed">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>002</h5>
+                  <h5 class="text-capitalize">What's included in your application design process?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq2" data-bs-parent="#faq" class="content collapse">
+                <p>
+                  Our comprehensive application design includes user research and personas, information architecture, user flow mapping, wireframing, visual interface design, interactive prototyping, and design system creation. We also provide detailed design specifications for developers, icon sets, and all necessary assets in various formats. Additionally, we offer usability testing and design validation to ensure optimal user experience.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq3" class="top collapsed">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>003</h5>
+                  <h5 class="text-capitalize">How do you ensure the app design will be user-friendly and intuitive?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq3" data-bs-parent="#faq" class="content collapse">
+                <p>
+                  We follow a user centered design approach that begins with thorough user research to understand your target audience's needs, behaviors, and pain points. We create user personas, map user journeys, and develop wireframes that prioritize ease of use. We also build interactive prototypes for testing and validation, allowing us to identify and resolve usability issues before final implementation.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq4" class="top collapsed">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>004</h5>
+                  <h5 class="text-capitalize">Can you work with our development team or do you provide development services too?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq4" data-bs-parent="#faq" class="content collapse">
+                <p>
+                  We can work seamlessly with your existing development team, providing detailed design specifications, style guides, and ongoing design support throughout the development process. While we specialize in design, we also offer web development services through our development team. We're flexible and can adapt to your preferred workflow, whether you need design only services or full design to development solutions.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div data-bs-toggle="collapse" data-bs-target="#faq5" class="top collapsed">
+                <div class="d-flex align-items-center gap-4">
+                  <h5>005</h5>
+                  <h5 class="text-capitalize">How long does the application design process typically take?</h5>
+                </div>
+                <button class="bg-transparent f-center fs-5">
+                  <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div id="faq5" data-bs-parent="#faq" class="content collapse">
+                <p>
+                  The timeline depends on application complexity and scope. A simple mobile app design typically takes 6-8 weeks, while complex applications with multiple user types and advanced features can take 10-16 weeks. This includes research, wireframing, visual design, prototyping, and revisions. We provide detailed project timelines during the planning phase and maintain regular communication throughout the design process to ensure timely delivery.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer pt-120">
+  <div class="container">
+    <h2 class="title-anim display-3 text-center text-white fw-bolder mb-30">
+      Reach out and <br />
+      let's create something great together
+    </h2>
+    <a class="fade_up_anim h4 fw-semibold mx-auto d-block mb-60 text-white text-center" href="mailto:andris.marketing@inbox.lv">andris.marketing@inbox.lv</a>
+    <div class="pb-120 d-flex justify-content-center">
+      <a href="contact-us.html" class="connect">
+        <span class="fs-4 fw-semibold z-3">Connect Us</span>
+        <i class="ph ph-arrow-up-right-bold fs-5 z-3"></i>
+        <div class="ball"></div>
+      </a>
+    </div>
+    <div class="row">
+      <div class="col-md-6 px-md-0">
+        <div class="footer-box border-start-0 border-bottom-0 apear-down">
+        </div>
+        <div class="footer-box border-start-0 border-bottom-0 apear-down">
+          <p class="text-uppercase">email</p>
+          <a href="mailto:andris.marketing@inbox.lv">andris.marketing@inbox.lv</a>
+        </div>
+      </div>
+      <div class="col-md-6 px-md-0">
+        <div class="footer-box border-start-0 border-end-0 h-100 border-bottom-0 apear-down">
+          <div class="d-flex flex-column justify-content-between h-100">
+            <p class="text-uppercase">MENU</p>
+            <div>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="about-us.html">About Us <i class="ph ph-arrow-up-right"></i></a>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="services.html">Services <i class="ph ph-arrow-up-right"></i></a>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="portfolio.html">Portfolio <i class="ph ph-arrow-up-right"></i></a>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="blogs.html">Blogs <i class="ph ph-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright d-flex justify-content-center">
+      <p class="text-center">© <span id="year"></span> Marketing Inbox. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    </main>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script defer src="assets/js/app.js"></script></body>
+</html>

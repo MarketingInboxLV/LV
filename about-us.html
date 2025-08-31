@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <title>Inbox Marketing LV - About Us</title>
+  <link href="assets/css/style.css" rel="stylesheet"></head>
+  <body>
+    <!-- go to top -->
+    <button class="go-to-top">
+      <i class="ph-bold ph-arrow-up"></i>
+    </button>
+
+    <!-- loader -->
+    <div class="loader-wrapper">
+      <span class="loader"></span>
+    </div>
+    <!-- Header -->
+    <nav class="navbar-top">
+  <div class="navbar-wrapper d-flex align-items-center justify-content-between">
+    <a href="index.html" class="logo d-inline-flex">
+      <img src="./assets/images/logo.png" class="img-fluid" alt="" />
+    </a>
+    <div class="menu-wrapper">
+      <ul class="menu-list d-none d-lg-flex">
+        <li><a href="index.html" class="menu-link">Home</a></li>
+        <li><a href="about-us.html" class="menu-link">About Us</a></li>
+        <li class="submenu">
+          <button>What We Do<i class="ph ph-caret-down"></i></button>
+          <ul class="submenu-dropdown">
+            <li><a class="menu-link dropdown-item" href="services.html">Services</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <button>Portfolio <i class="ph ph-caret-down"></i></button>
+          <ul class="submenu-dropdown">
+            <li><a class="menu-link dropdown-item" href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <button>Insight <i class="ph ph-caret-down"></i></button>
+          <ul class="submenu-dropdown">
+            <li><a class="menu-link dropdown-item" href="blogs.html">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="contact-us.html" class="menu-link">Contact Us</a></li>
+      </ul>
+    </div>
+    <button class="d-lg-none menu-toggle-btn fs-3 f-center bg-transparent"><i class="ph ph-list"></i></button>
+  </div>
+  <div class="mobile-menu d-lg-none">
+    <div class="d-flex justify-content-between align-items-center gap-2 mb-4 d-lg-none">
+      <img src="./assets/images/logo.png" alt="" />
+      <button class="menu-close-btn bg-transparent f-center fs-4"><i class="ph ph-x"></i></button>
+    </div>
+    <ul class="menu-list" id="mobile-menu">
+      <li><a href="index.html" class="menu-link active">Home</a></li>
+      <li><a href="about-us.html" class="menu-link">About Us</a></li>
+      <li class="submenu">
+        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mservice">Service <i class="ph ph-caret-up"></i></button>
+        <div id="mservice" class="collapse" data-bs-parent="#mobile-menu">
+          <ul class="submenu-dropdown">
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="submenu">
+        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mport">Portfolio <i class="ph ph-caret-up"></i></button>
+        <div id="mport" class="collapse" data-bs-parent="#mobile-menu">
+          <ul class="submenu-dropdown">
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="submenu">
+        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#mblog">Blog <i class="ph ph-caret-up"></i></button>
+        <div id="mblog" class="collapse" data-bs-parent="#mobile-menu">
+          <ul class="submenu-dropdown">
+            <li><a href="blogs.html">Blog</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="contact-us.html" class="menu-link">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+    <main>
+      <!-- hero  -->
+      <section class="hero pt-120 pb-120">
+        <div class="hero-inner d-block">
+          <div class="container pb-120">
+            <div class="text-center">
+              <h5 class="fade_up_anim text-uppercase text-primary">Who WE ARE</h5>
+              <h1 data-delay=".2" class="fade_up_anim display-1 hero-name">
+                <span class="first">Marketing</span>
+                <span class="last">Inbox</span> <br />
+              </h1>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between gap-4 flex-wrap mb-3 mb-xl-4">
+            <span>TOP DIGITAL AGENCY</span>
+            <span>BASED IN EUROPE</span>
+            <span>10 YEARS OF EXPERIENCE</span>
+          </div>
+          <div class="d-flex flex-wrap flex-sm-nowrap justify-content-between author-img mb-60">
+            <div class="left border-start-0 border-end-0 d-flex align-items-center">
+              <div class="fade_up_anim d-flex flex-wrap align-items-center gap-4">
+                <div class="users-group">
+                  <img src="./assets/images/user-1.png" alt="" />
+                  <img src="./assets/images/user-2.png" alt="" />
+                  <img src="./assets/images/user-3.png" alt="" />
+                  <img src="./assets/images/user-4.png" alt="" />
+                  <span><i class="ph ph-arrow-right"></i></span>
+                </div>
+                <div class="ps-2 ps-xxl-4">
+                  <h4 class="mb-1">500+</h4>
+                  <p>Customers</p>
+                </div>
+              </div>
+            </div>
+            <div class="center">
+              <img data-delay=".2" src="./assets/images/mark-enzo-about.png" class="img-fluid fade_up_anim" alt="" />
+            </div>
+            <div class="right border-start-0 border-end-0"></div>
+          </div>
+          <div class="mb-60">
+            <div class="about-para text-center">
+              <p class="fade_up_anim mb-4 fw-medium fs-5">At Marketing Inbox, we specialize in transforming your digital presence through innovative web development and strategic marketing solutions. Based in Europe, we've built our reputation on delivering exceptional results that drive real business growth for our clients. Our team combines creative expertise with data-driven strategies to ensure every project not only looks outstanding but performs exceptionally. We believe that great digital solutions should be accessible to businesses of all sizes, which is why we offer premium quality services at competitive rates.</p>
+              <p data-delay=".2" class="fade_up_anim fw-medium fs-5">
+                With over 500 successful projects completed across 25+ countries, Marketing Inbox has become a trusted partner for businesses looking to expand their digital footprint globally. Our international experience gives us unique insights into diverse markets and consumer behaviors, allowing us to create tailored solutions that resonate with your target audience. From stunning websites to comprehensive marketing campaigns, we handle every aspect of your digital journey with professionalism and attention to detail. When you choose Marketing Inbox, you're not just getting a service provider – you're gaining a dedicated partner committed to your success.
+              </p>
+            </div>
+          </div>
+      </section>
+
+      <!-- experience -->
+      <section class="experience">
+        <div class="container-black">
+          <div class="container">
+            <p data-delay=".2" class="fade_up_anim text-center text-white fw-bolder fs-1 pb-120 exp-heading">Marketing Inbox is one of the most trusted agencies in our industry, the way we approach projects continues to inspire and set new standards.</p>
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-xl-5">
+                <img src="./assets/images/experience.png" class="img-fluid" alt="" />
+              </div>
+              <div class="col-lg-6 offset-xl-1" id="exp-accordion">
+                <div class="experience-item">
+                  <div data-bs-toggle="collapse" data-bs-target="#exp" class="top">
+                    <h4 class="text-white">Our Journey</h4>
+                    <button class="bg-transparent fs-4 border-0 f-center text-white">
+                      <i class="ph ph-plus"></i>
+                      <i class="ph ph-minus"></i>
+                    </button>
+                  </div>
+                  <div id="exp" class="exp-body collapse show" data-bs-parent="#exp-accordion">
+                    <div class="single-experience">
+                      <div class="inner-card">
+                        <span>2021 - Present</span>
+                        <div>
+                          <h4 class="text-white fw-bold mb-2">Expanding as a full-service Creative Marketing & Digital Agency</h4>
+                          <p>(Marketing Inbox)</p>
+                        </div>
+                      </div>
+                      <div class="inner-card">
+                        <span>2018 - 2020</span>
+                        <div>
+                          <h4 class="text-white fw-bold mb-2">Helping brands grow with innovative campaigns & digital strategies</h4>
+                          <p>(Marketing Inbox)</p>
+                        </div>
+                      </div>
+                      <div class="inner-card">
+                        <span>2016 - 2018</span>
+                        <div>
+                          <h4 class="text-white fw-bold mb-2">Delivering front-end development & design solutions to global clients</h4>
+                          <p>(Marketing Inbox)</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience-item">
+                  <div data-bs-toggle="collapse" data-bs-target="#edu" class="top collapsed">
+                    <h4 class="text-white">Awards & Recognition</h4>
+                    <button class="bg-transparent fs-4 border-0 f-center text-white">
+                      <i class="ph ph-plus"></i>
+                      <i class="ph ph-minus"></i>
+                    </button>
+                  </div>
+                  <div id="edu" class="exp-body collapse" data-bs-parent="#exp-accordion">
+                    <div class="single-experience">
+                      <div class="inner-card">
+                        <span>2014 - 2016</span>
+                        <div>
+                          <h4 class="text-white fw-bold mb-2">Best Emerging Marketing Agency</h4>
+                        </div>
+                      </div>
+                      <div class="inner-card">
+                        <span>2011 - 2014</span>
+                        <div>
+                          <h4 class="text-white fw-bold mb-2">Top Digital Innovation Award</h4>
+                        </div>
+                      </div>
+                      <div class="inner-card">
+                        <span>2009 - 2011</span>
+                        <div>
+                          <h4 class="text-white fw-bold mb-2">Excellence in Web Development & Branding</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- selected projects -->
+      <section class="projects pt-120 pb-120">
+        <div class="swiper project-title mb-0">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h2 class="project-name fw-bolder">Awards Wining -&nbsp;</h2>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="project-name fw-bolder">Awards Wining -&nbsp;</h2>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="project-name fw-bolder">Awards Wining -&nbsp;</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container pt-120 overflow-x-auto">
+          <table class="award-table whitespace-nowrap">
+            <tbody>
+              <tr class="apear-down">
+                <td>Site of the day</td>
+                <td>Readability</td>
+                <td>2018</td>
+              </tr>
+              <tr class="apear-down">
+                <td>Motion Graphics</td>
+                <td>Animation</td>
+                <td>2019</td>
+              </tr>
+              <tr class="apear-down">
+                <td>Business Model</td>
+                <td>New Strategy</td>
+                <td>2019</td>
+              </tr>
+              <tr class="apear-down">
+                <td>Web Design</td>
+                <td>Visualization</td>
+                <td>2020</td>
+              </tr>
+              <tr class="apear-down">
+                <td>Developer Award</td>
+                <td>Readability</td>
+                <td>2022</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- stats slider -->
+      <section class="overflow-hidden py-5">
+        <div class="stats">
+          <div class="swiper stat-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h2 class="text-white fw-semibold">20 + Countries /</h2>
+              </div>
+              <div class="swiper-slide">
+                <h2 class="text-white fw-semibold">500 + Satisfied Clients /</h2>
+              </div>
+              <div class="swiper-slide">
+                <h2 class="text-white fw-semibold">650 + Project Completed</h2>
+              </div>
+              <div class="swiper-slide">
+                <h2 class="text-white fw-semibold">500 + Satisfied Clients /</h2>
+              </div>
+              <div class="swiper-slide">
+                <h2 class="text-white fw-semibold">650 + Project Completed</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- digital experience -->
+      <section class="experience pb-120 pt-120">
+        <div class="container">
+          <h2 class="text-center mb-4 mb-xl-5 max-w-700 title-anim">We craft wonderful digital experiences for brands</h2>
+          <div class="card-container">
+            <div class="exp-card-wrapper">
+              <img src="./assets/images/shape-top.png" alt="" />
+              <div class="experience-card">
+                <h6 class="my-4">## 1 ##</h6>
+                <div class="card-inner">
+                  <div class="icon">
+                    <img src="./assets/images/figma.png" width="24" alt="" />
+                  </div>
+                  <p class="percent">90%</p>
+                </div>
+                <h6 class="my-4 d-none d-sm-block">Figma</h6>
+              </div>
+              <img src="./assets/images/shape-bottom.png" alt="" />
+            </div>
+            <div class="exp-card-wrapper">
+              <img src="./assets/images/shape-top.png" alt="" />
+              <div class="experience-card">
+                <h6 class="my-4">## 1 ##</h6>
+                <div class="card-inner">
+                  <div class="icon">
+                    <img src="./assets/images/xd.png" width="32" alt="" />
+                  </div>
+                  <p class="percent">80%</p>
+                </div>
+                <h6 class="my-4 d-none d-sm-block">Adobe XD</h6>
+              </div>
+              <img src="./assets/images/shape-bottom.png" alt="" />
+            </div>
+            <div class="exp-card-wrapper">
+              <img src="./assets/images/shape-top.png" alt="" />
+              <div class="experience-card">
+                <h6 class="my-4">## 1 ##</h6>
+                <div class="card-inner">
+                  <div class="icon">
+                    <img src="./assets/images/wordpress.png" width="32" alt="" />
+                  </div>
+                  <p class="percent">90%</p>
+                </div>
+                <h6 class="my-4 d-none d-sm-block">Wordpress</h6>
+              </div>
+              <img src="./assets/images/shape-bottom.png" alt="" />
+            </div>
+            <div class="exp-card-wrapper">
+              <img src="./assets/images/shape-top.png" alt="" />
+              <div class="experience-card">
+                <h6 class="my-4">## 1 ##</h6>
+                <div class="card-inner">
+                  <div class="icon">
+                    <img src="./assets/images/html.png" width="28" alt="" />
+                  </div>
+                  <p class="percent">85%</p>
+                </div>
+                <h6 class="my-4 d-none d-sm-block">HTML</h6>
+              </div>
+              <img src="./assets/images/shape-bottom.png" alt="" />
+            </div>
+            <div class="exp-card-wrapper">
+              <img src="./assets/images/shape-top.png" alt="" />
+              <div class="experience-card">
+                <h6 class="my-4">## 1 ##</h6>
+                <div class="card-inner">
+                  <div class="icon">
+                    <img src="./assets/images/bootstrap.png" width="32" alt="" />
+                  </div>
+                  <p class="percent">70%</p>
+                </div>
+                <h6 class="my-4 d-none d-sm-block">Bootstrap</h6>
+              </div>
+              <img src="./assets/images/shape-bottom.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- global clients -->
+      <section class="global-client pt-120">
+        <div class="container-black">
+          <h3 class="title-anim text-center text-white mb-4 mb-xl-5 pb-1 pb-xl-3">We've 500+ Global Clients &amp; lot's of Project Complete</h3>
+          <div class="brand-container">
+            <div class="container">
+              <div class="swiper brand-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-1.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-3.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-4.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-5.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="./assets/images/brand-3.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- faq section -->
+      <section class="faq pb-120 pt-120">
+        <div class="container">
+          <h2 class="title-anim text-center display-3 fw-bolder mb-60">We're dedicated and love making a change through design</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/images/about-faq.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-6" id="faq">
+              <div class="faq-item">
+                <div data-bs-toggle="collapse" data-bs-target="#faq1" class="top">
+                  <h4>Proven Global Expertise</h4>
+                  <button class="fs-4 f-center">
+                    <i class="ph ph-plus"></i>
+                    <i class="ph ph-minus"></i>
+                  </button>
+                </div>
+                <div id="faq1" class="collapse show" data-bs-parent="#faq">
+                  <p class="mt-4 pt-xxl-2">With 500+ successful projects delivered across 25+ countries, we bring deep understanding of diverse markets and international best practices to every project.</p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div data-bs-toggle="collapse" data-bs-target="#faq2" class="top">
+                  <h4>European Quality & Standards</h4>
+                  <button class="fs-4 f-center">
+                    <i class="ph ph-plus"></i>
+                    <i class="ph ph-minus"></i>
+                  </button>
+                </div>
+                <div id="faq2" class="collapse" data-bs-parent="#faq">
+                  <p class="mt-4 pt-xxl-2">Based in Europe, we deliver premium quality solutions with competitive pricing, combining the highest standards of reliability and professional excellence that European businesses are known for all at affordable rates that provide exceptional value for your investment.</p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div data-bs-toggle="collapse" data-bs-target="#faq3" class="top">
+                  <h4>Cross-Cultural Digital Solutions</h4>
+                  <button class="fs-4 f-center">
+                    <i class="ph ph-plus"></i>
+                    <i class="ph ph-minus"></i>
+                  </button>
+                </div>
+                <div id="faq3" class="collapse" data-bs-parent="#faq">
+                  <p class="mt-4 pt-xxl-2">Our extensive international experience means we know how to create websites and marketing campaigns that resonate across different cultures, languages, and business environments.</p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div data-bs-toggle="collapse" data-bs-target="#faq4" class="top">
+                  <h4>Established Track Record</h4>
+                  <button class="fs-4 f-center">
+                    <i class="ph ph-plus"></i>
+                    <i class="ph ph-minus"></i>
+                  </button>
+                </div>
+                <div id="faq4" class="collapse" data-bs-parent="#faq">
+                  <p class="mt-4 pt-xxl-2">Our large client portfolio demonstrates our ability to scale, adapt, and deliver consistent results regardless of project size or industry vertical.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- clients review -->
+      <section class="clients pt-120 pb-120">
+        <div class="container">
+          <h2 class="title-anim text-center mb-4 mb-xl-5 pb-3 display-3 fw-bolder">Our clients loved working with us, and we are confident you will too!</h2>
+          <div class="reviews" id="review-accordion">
+            <div class="apear-down review">
+              <span class="d-inline-block me-2 me-xxl-4">I</span>
+              <div class="d-flex gap-3 gap-lg-4 flex-wrap flex-md-nowrap gap-xxl-5 flex-grow-1 align-items-center">
+                <img src="./assets/images/client-1.png" class="client-img flex-shrink-0" alt="" />
+                <div>
+                  <div id="client1" class="collapse show" data-bs-parent="#review-accordion">
+                    <div class="mb-4">
+                      <img src="./assets/images/quote.png" class="mb-3" alt="" />
+                      <p class="fw-semibold h4">Marketing Inbox exceeded our expectations with their creativity and professionalism. The results were beyond what we imagined.</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="fw-bold mb-2">David Johnson</h3>
+                    <p>Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="bg-transparent border-0 flex-shrink-0 f-center gap-1 fs-6" data-bs-toggle="collapse" data-bs-target="#client1">
+                <span class="close">Close</span>
+                <span class="read">Read Review</span>
+                <i class="ph ph-arrow-up"></i>
+              </button>
+            </div>
+            <div class="apear-down review">
+              <span class="d-inline-block me-2 me-xxl-4">I</span>
+              <div class="d-flex gap-3 gap-lg-4 flex-wrap flex-md-nowrap gap-xxl-5 flex-grow-1 align-items-center">
+                <img src="./assets/images/client-2.png" class="client-img flex-shrink-0" alt="" />
+                <div>
+                  <div id="client2" class="collapse" data-bs-parent="#review-accordion">
+                    <div class="mb-4">
+                      <img src="./assets/images/quote.png" class="mb-3" alt="" />
+                      <p class="fw-semibold h4">Their team brought fresh ideas and executed them flawlessly. We saw immediate improvements in our campaigns.
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="fw-bold mb-2">Michael Adams</h3>
+                    <p>Marketing Director</p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="bg-transparent collapsed border-0 flex-shrink-0 f-center gap-1 fs-6" data-bs-toggle="collapse" data-bs-target="#client2">
+                <span class="close">Close</span>
+                <span class="read">Read Review</span>
+                <i class="ph ph-arrow-up"></i>
+              </button>
+            </div>
+            <div class="apear-down review">
+              <span class="d-inline-block me-2 me-xxl-4">I</span>
+              <div class="d-flex gap-3 gap-lg-4 flex-wrap flex-md-nowrap gap-xxl-5 flex-grow-1 align-items-center">
+                <img src="./assets/images/client-3.png" class="client-img flex-shrink-0" alt="" />
+                <div>
+                  <div id="client3" class="collapse" data-bs-parent="#review-accordion">
+                    <div class="mb-4">
+                      <img src="./assets/images/quote.png" class="mb-3" alt="" />
+                      <p class="fw-semibold h4">Working with Marketing Inbox was effortless. They understand business goals and deliver strategies that truly work.</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="fw-bold mb-2">Robert Lee</h3>
+                    <p>Brand Manager</p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="bg-transparent collapsed border-0 flex-shrink-0 f-center gap-1 fs-6" data-bs-toggle="collapse" data-bs-target="#client3">
+                <span class="close">Close</span>
+                <span class="read">Read Review</span>
+                <i class="ph ph-arrow-up"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer pt-120">
+  <div class="container">
+    <h2 class="title-anim display-3 text-center text-white fw-bolder mb-30">
+      Reach out and <br />
+      let's create something great together
+    </h2>
+    <a class="fade_up_anim h4 fw-semibold mx-auto d-block mb-60 text-white text-center" href="mailto:andris.marketing@inbox.lv">andris.marketing@inbox.lv</a>
+    <div class="pb-120 d-flex justify-content-center">
+      <a href="contact-us.html" class="connect">
+        <span class="fs-4 fw-semibold z-3">Connect Us</span>
+        <i class="ph ph-arrow-up-right-bold fs-5 z-3"></i>
+        <div class="ball"></div>
+      </a>
+    </div>
+    <div class="row">
+      <div class="col-md-6 px-md-0">
+        <div class="footer-box border-start-0 border-bottom-0 apear-down">
+        </div>
+        <div class="footer-box border-start-0 border-bottom-0 apear-down">
+          <p class="text-uppercase">email</p>
+          <a href="mailto:andris.marketing@inbox.lv">andris.marketing@inbox.lv</a>
+        </div>
+      </div>
+      <div class="col-md-6 px-md-0">
+        <div class="footer-box border-start-0 border-end-0 h-100 border-bottom-0 apear-down">
+          <div class="d-flex flex-column justify-content-between h-100">
+            <p class="text-uppercase">MENU</p>
+            <div>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="about-us.html">About Us <i class="ph ph-arrow-up-right"></i></a>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="services.html">Services <i class="ph ph-arrow-up-right"></i></a>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="portfolio.html">Portfolio <i class="ph ph-arrow-up-right"></i></a>
+              <a class="d-flex align-items-center gap-1 justify-content-end" href="blogs.html">Blogs <i class="ph ph-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright d-flex justify-content-center">
+      <p class="text-center">© <span id="year"></span> Marketing Inbox. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    </main>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script defer src="assets/js/app.js"></script></body>
+</html>
